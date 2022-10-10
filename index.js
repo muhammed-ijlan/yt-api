@@ -42,7 +42,7 @@ app.use((err, req, res, next) => {
 
 
 //PORT LISTEN
-app.listen(5000, () => {
+app.listen(3000, () => {
     connect();
     console.log("Server Connected!");
 }) 
